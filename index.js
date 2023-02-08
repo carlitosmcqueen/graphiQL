@@ -7,6 +7,11 @@ import { buildSchema } from "graphql";
 
 const app = express()
 
+
+
+// ---------------- le agrego el codifo de graphsql abajo de cada funcion -----------------
+
+
 const getAllProducts = async()=>{
     const data = await productosDao.getAll()
     return data
